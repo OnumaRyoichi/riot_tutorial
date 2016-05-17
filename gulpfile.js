@@ -24,7 +24,6 @@ gulp.task('server', function () {
   });
 });
 
-
 gulp.task('default', ['server'], function() {
   gulp.watch("./dest/*", function() {
     browsersync.reload();
